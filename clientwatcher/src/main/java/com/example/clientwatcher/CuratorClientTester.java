@@ -27,6 +27,8 @@ public class CuratorClientTester implements Runnable {
         this.curatorConfig = curatorConfig;
     }
 
+    // Curator retry policy setting and client start...
+    // and create ephemeral node on path....
     @Override
     public void run() {
         RetryPolicy retryPolicy = new ExponentialBackoffRetry(300, 3);
