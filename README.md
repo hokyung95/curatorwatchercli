@@ -1,1 +1,2 @@
 # curatorwatchercli
+good project
